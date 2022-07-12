@@ -41,12 +41,14 @@ p {
 
 .wrapper {
   background: #4CAC9D;
-  max-width: 960px;
+  max-width: 80%;
   margin: 0 auto;
+  min-height: 1500px;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  height: 100%;
 }
 
 .sidebar-wrapper {
@@ -161,6 +163,7 @@ p {
   background: #fff;
   padding: 60px;
   padding-right: 300px;
+  min-height: 1500px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -228,7 +231,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;
@@ -263,7 +266,7 @@ p {
 }
 
 .footer {
-  padding: 30px;
+  padding: 3000px;
   padding-top: 60px;
 }
 .footer .copyright {
